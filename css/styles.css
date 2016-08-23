@@ -1,0 +1,235 @@
+/*
+General Text Styles
+*/
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Istok Web', sans-serif; /* for large headings */
+}
+
+h2 {
+  font-size: 4.7em;
+  letter-spacing: .05em;
+}
+
+p {
+  font-family: 'Lora', serif; /* for body text */
+}
+
+/*
+Navigation
+*/
+
+.nav-desktop {
+  background-color: rgba(25, 25, 25, 1);
+}
+
+.nav-desktop a {
+  color: #CCCCCC;
+}
+
+.site-logo {
+  color: #CCCCCC;
+}
+
+.site-logo:hover {
+  color: black;
+  background-color: #CCCCCC;
+}
+
+.navbar-header a {
+  font-family: 'Istok Web', sans-serif;
+  font-size: 1.7em;
+  letter-spacing: .05em;
+}
+
+#mydropdown a {
+  font-family: 'Istok Web', sans-serif;
+  font-size: 1.1em;
+  letter-spacing: .15em;
+}
+
+#mydropdown a:hover {
+  color: black;
+  background-color: #CCCCCC;
+}
+
+.navbar-toggle .icon-bar {
+  background-color: #CCCCCC;
+}
+
+/*
+ General section styles
+ */
+
+#about, #portfolio, #contact {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+/*
+Introduction (splash) section
+*/
+
+#intro {
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url("../img/header-bg.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100% 100%;
+  height: 960px;
+  color: white;
+}
+
+#heading {
+  margin-top: 17.1em;
+}
+
+#heading h1 {
+  font-size: 7em;
+  letter-spacing: .05em;
+}
+
+#heading h3 {
+  font-size: 4.2em;
+  letter-spacing: .05em;
+}
+
+#heading h5 {
+  font-size: 1.8em;
+  letter-spacing: .05em;
+}
+
+/*
+About section
+*/
+
+#about {
+  color: #111111;
+  padding-top: 1em;
+  padding-bottom: 13em;
+  background-image: url("../img/brushed.png");
+}
+
+#about h2 {
+  padding-top: .5em;
+  padding-bottom: .75em;
+}
+
+#about #bio {
+  margin-bottom: 5em;
+}
+
+#about p {
+  font-size: 3em;
+  line-height: 2.3em;
+}
+
+#about .style-1 {
+  color: #0c73b8;
+}
+
+/*
+Portfolio section
+*/
+
+#portfolio {
+  color: black;
+  padding-bottom: 7em;
+  background-image: url("../img/footer_lodyas.png");
+}
+
+#portfolio h2 {
+  color: #EEEEEE;
+  padding-top: .75em;
+  padding-bottom: .5em;
+}
+
+#portfolio .panel-footer {
+  font-family: 'Lora', serif;
+  font-size: 1.7em;
+}
+
+#p-banner {
+  padding-top: .5em;
+  padding-bottom: .5em;
+}
+
+.work {
+  margin-bottom: 2em;
+}
+
+/*
+Contact section
+*/
+
+#contact {
+  color: black;
+  padding-top: 2.5em;
+  padding-bottom: 7em;
+
+  background-image:
+  linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),
+  url("../img/brushed.png");
+}
+
+#c-banner {
+  padding-top: .25em;
+  padding-bottom: .25em;
+}
+
+#contact p {
+  font-size: 2em;
+  line-height: 2em;
+}
+
+#contact a {
+  color: black;
+}
+
+#contact a:hover {
+  color: #AAAAAA;
+  text-decoration: none;
+}
+
+#contact span {
+  letter-spacing: .1em;
+}
+
+.icon {
+  margin: .75em;
+}
+
+/*
+Footer section
+*/
+
+footer {
+  background-color: rgba(25, 25, 25, 1);
+  color: #CCCCCC;
+  letter-spacing: .05em;
+}
+
+footer p {
+  padding-top: .5em;
+}
+
+/*
+Misc. Styles
+*/
+
+#space1 {
+  margin-top: 3.5em;
+}
+
+.col-centered {
+  float: none;
+  margin: 0 auto;
+}
