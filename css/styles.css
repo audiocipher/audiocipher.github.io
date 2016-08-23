@@ -191,13 +191,19 @@ Contact section
   line-height: 2em;
 }
 
+#contact a:link,
+#contact a:visited,
+#contact a:hover,
+#contact a:active {
+  text-decoration: none;
+}
+
 #contact a {
   color: black;
 }
 
 #contact a:hover {
   color: #AAAAAA;
-  text-decoration: none;
 }
 
 #contact span {
