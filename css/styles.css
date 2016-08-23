@@ -71,6 +71,7 @@ Introduction (splash) section
 */
 
 #intro {
+  background-color: white;
   background-image:
     linear-gradient(
       rgba(0, 0, 0, 0.2),
