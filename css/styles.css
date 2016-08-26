@@ -172,13 +172,7 @@ Contact section
   color: black;
   padding-top: 2.5em;
   padding-bottom: 7em;
-
-  background-image:
-  linear-gradient(
-    rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.5)
-  ),
-  url("../img/brushed.png");
+  background-image: url("../img/brushed.png");
 }
 
 #c-banner {
