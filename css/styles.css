@@ -74,8 +74,8 @@ Introduction (splash) section
   background-color: white;
   background-image:
     linear-gradient(
-      rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0.2)
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0)
     ),
     url("../img/header-bg.jpg");
   background-attachment: fixed;
