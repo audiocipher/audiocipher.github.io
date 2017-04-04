@@ -11,7 +11,7 @@ h2 {
   letter-spacing: .05em;
 }
 
-p {
+p, li {
   font-family: 'Lora', serif; /* for body text */
 }
 
@@ -125,13 +125,14 @@ About section
   margin-bottom: 5em;
 }
 
-#about p {
+#about p, #about li {
   font-size: 3em;
   line-height: 2.3em;
 }
 
 #about .style-1 {
-  color: #0c73b8;
+  /*color: #0c73b8;*/
+  color: #0b69a8;
 }
 
 /*
@@ -238,4 +239,42 @@ Misc. Styles
 .col-centered {
   float: none;
   margin: 0 auto;
+}
+
+/*
+Media Queries
+*/
+
+/* Extra small devices (phones, up to 480px) */
+@media screen and (max-width: 767px) {
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/* tablets/desktops and up ----------- */
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/* large desktops and up ----------- */
+@media screen and (min-width: 1200px) {
+}
+
+/************************* */
+
+@media screen and (max-width: 1635px) {
+    #about p, #about li {
+      font-size: 2.5em;
+      line-height: 1.75em;
+  }
+
+}
+
+@media screen and (max-width: 1397px) {
+    #about p, #about li {
+      font-size: 2.05em;
+      line-height: 1.75em;
+  }
+
 }
