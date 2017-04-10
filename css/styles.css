@@ -86,22 +86,15 @@ Introduction (splash) section
   color: white;
 }
 
-#heading {
-  margin-top: 17.1em;
-}
-
 #heading h1 {
-  font-size: 7em;
   letter-spacing: .05em;
 }
 
 #heading h3 {
-  font-size: 4.2em;
   letter-spacing: .05em;
 }
 
 #heading h5 {
-  font-size: 1.8em;
   letter-spacing: .05em;
 }
 
@@ -126,12 +119,10 @@ About section
 }
 
 #about p, #about li {
-  font-size: 3em;
   line-height: 2.3em;
 }
 
 #about .style-1 {
-  /*color: #0c73b8;*/
   color: #0b69a8;
 }
 
@@ -187,7 +178,6 @@ Contact section
 }
 
 #contact p {
-  font-size: 2em;
   line-height: 2em;
 }
 
@@ -247,34 +237,199 @@ Media Queries
 
 /* Extra small devices (phones, up to 480px) */
 @media screen and (max-width: 767px) {
-}
+  h2 {
+    font-size: 3.5em;
+  }
 
-/* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991px) {
-}
+  #intro {
+    height: 500px;
+  }
 
-/* tablets/desktops and up ----------- */
-@media (min-width: 992px) and (max-width: 1199px) {
-}
+  #heading {
+    margin-top: 10em;
+  }
 
-/* large desktops and up ----------- */
-@media screen and (min-width: 1200px) {
-}
+  #heading h1 {
+    font-size: 3.2em;
+  }
 
-/************************* */
+  #heading h3 {
+    font-size: 2em;
+  }
 
-@media screen and (max-width: 1635px) {
-    #about p, #about li {
-      font-size: 2.5em;
-      line-height: 1.75em;
+  #heading h5 {
+    font-size: 1em;
+  }
+
+  #about h2 {
+    padding-top: .5em;
+    padding-bottom: .75em;
+  }
+
+  #about #bio {
+    margin-bottom: 5em;
+  }
+
+  #about #bio p, #about #bio li {
+    font-size: 1.5em;
+    line-height: 2.3em;
+  }
+
+  #contact p {
+    font-size: 1.35em;
+  }
+
+  #contact ul {
+    padding: 0;
+    text-align: center;
+  }
+
+  #contact li {
+    font-size: 2em;
+    list-style-type: none;
+    text-align: center;
+    margin-top: 1em;
   }
 
 }
 
-@media screen and (max-width: 1397px) {
-    #about p, #about li {
-      font-size: 2.05em;
-      line-height: 1.75em;
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+
+  #intro {
+    height: 500px;
+  }
+
+  #heading {
+    margin-top: 10em;
+  }
+
+  #heading h1 {
+    font-size: 4.8em;
+  }
+
+  #heading h3 {
+    font-size: 2.8em;
+  }
+
+  #heading h5 {
+    margin-top: 1em;
+    font-size: 1.25em;
+  }
+
+  #about #bio p, #about #bio li {
+    font-size: 2em;
+    line-height: 2.3em;
+  }
+
+  #contact p {
+    font-size: 1.8em;
+  }
+
+  #contact ul {
+    padding: 0;
+    text-align: center;
+  }
+
+  #contact li {
+    font-size: 2em;
+    list-style-type: none;
+    text-align: center;
+    display: inline;
+  }
+
+}
+
+/* tablets/desktops and up ----------- */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  #intro {
+    height: 500px;
+  }
+
+  #heading {
+    margin-top: 11em;
+  }
+
+  #heading h1 {
+    font-size: 4.8em;
+  }
+
+  #heading h3 {
+    font-size: 2.8em;
+  }
+
+  #heading h5 {
+    margin-top: 1em;
+    font-size: 1.25em;
+  }
+
+  #about #bio p, #about #bio li {
+    font-size: 2.5em;
+    line-height: 2.3em;
+  }
+
+  #contact p {
+    font-size: 1.8em;
+  }
+
+  #contact ul {
+    padding: 0;
+    text-align: center;
+  }
+
+  #contact li {
+    font-size: 2em;
+    list-style-type: none;
+    text-align: center;
+    display: inline;
+  }
+
+}
+
+/* large desktops and up ----------- */
+@media screen and (min-width: 1200px) {
+
+  #intro {
+    height: 960px;
+  }
+
+  #heading {
+    margin-top: 14em;
+  }
+
+  #heading h1 {
+    font-size: 7em;
+  }
+
+  #heading h3 {
+    font-size: 4.2em;
+  }
+
+  #heading h5 {
+    margin-top: 1em;
+    font-size: 1.8em;
+  }
+
+  #about #bio p, #about #bio li {
+    font-size: 2.9em;
+    line-height: 2.3em;
+  }
+
+  #contact p {
+    font-size: 2em;
+  }
+
+  #contact ul {
+    padding: 0;
+    text-align: center;
+  }
+
+  #contact li {
+    font-size: 2em;
+    list-style-type: none;
+    text-align: center;
+    display: inline;
   }
 
 }
